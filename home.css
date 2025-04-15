@@ -95,10 +95,6 @@ body{
 
 
 @media (max-width: 600px) {
-    .navigation a{
-        font-size: 12px;
-        padding: 0.3rem, 0.5rem;
-    }
 
     .img1{
         display: none;
