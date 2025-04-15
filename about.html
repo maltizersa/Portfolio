@@ -7,18 +7,31 @@
     <link rel="stylesheet" href="about.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="sidebar.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Preahvihear&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="navigation">
-        <ul>
+        <ul class="navigationbar">
             <li><a href="home.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="">Resume</a></li>
         </ul>
+        <div class="hamburger" onclick=showSideBar()>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="sidebar"> 
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="">Resume</a></li>
+            <li><a href=""><img src="close_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="" style="height: 50px;"></a></li>
+        </ul>
+        
     </div>
-
     <div class="mainsection">
         <div class="mesection">
             <div class="me">
@@ -27,22 +40,22 @@
             </div>
             <div class="metext">
                 <h1 class="meheader">About <font color="red">Me</font></h1>
-                <pre>Hi, I’m Jerson Ian N. Sernadilla, a pawn developer at 
-Metro-Avenue SAMP.
+                <p>Hi, I’m <font color="red">Jerson Ian N. Sernadilla</font>, a pawn developer at 
+                    <font color="red">Metro Avenue SAMP</font>. <br><br>
 
-Studied at Colegio de San Juan de Letran-Manaoag from 
+Studied at <font color = "red">Colegio de San Juan de Letran-Manaoag</font> from 
 preschool to senior high school. Currently taking a BS 
-Information Technology at Urdaneta City University, 2nd 
-Year College. 
+Information Technology at <font color="red">Urdaneta City University</font>, 2nd 
+Year College. <br><br>
 
-Pawn Developer since 2020. Head Developer at MT-
+<font color="red">Pawn Developer</font> since 2020. Head Developer at MT-
 SAMP since 2020 until 2024. Head Developer at MA-
-SAMP from 2024 till present.
+SAMP from 2024 till present. <br><br>
 
 Likes to play video games and instruments. Part of a 
 Music Team at LICJIM Church. Former bassists, rhythm, 
 and lead guitarist. 
-                </pre>
+                </p>
             </div>
         </div>
     </div>

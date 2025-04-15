@@ -6,17 +6,31 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="gallery.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="sidebar.js"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Preahvihear&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="navigation">
-        <ul>
+        <ul class="navigationbar">
             <li><a href="home.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="gallery.html">Gallery</a></li>
             <li><a href="">Resume</a></li>
         </ul>
+        <div class="hamburger" onclick=showSideBar()>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="sidebar"> 
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="">Resume</a></li>
+            <li><a href=""><img src="close_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg" alt="" style="height: 50px;"></a></li>
+        </ul>
+        
     </div>
 
     <div class="mainsection">
